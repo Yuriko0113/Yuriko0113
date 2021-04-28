@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+
+/* ボディ */
+body {width: 100%;
+      height: 900px;
+      background-color: #fffbc7;
+      margin-top: 0;
+      padding-top: 0;}
+
+/* コンテナ */
+#container {width: 1320px;
+            height: 822px;
+            margin-right: auto;
+            margin-left: auto;
+            position: relative;}
+            
+
+/* コンテンツ */
+h1.storeoverview {background-color: #ffffff;
+                  width: 85%;
+                  height: 822px;
+                  margin-right: auto;
+                  margin-left: auto;
+                  margin-top: 60px;
+                  position: relative;}
+
+/* 飾り罫左 */
+#content {position: relative;}
+
+#content img.left {url(image/round_right.png);
+                   position: absolute;
+                   top: 13px;
+                   left: 48px;
+                   display: block;}
+
+/* 飾り罫右 */
+#content img.right {url(image/round_right.png);
+                    position: absolute;
+                    top: 13px;
+                    left: 1180px;
+                    display: block;}
+
+
+/* 見出し */
+#content p.content {font-size: 38px;
+                    color: #35b597;
+                    font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+                    text-align: center;
+                    position: absolute;
+                    top: 0;
+                    left: 500px;}
+
+p.content {position: relative;
+           padding: 0;
+           text-align: center;}
+
+p.content:before {position: absolute;
+                  top: calc(50% - 1px);
+                  left: 305px;
+                  width: 80%;
+                  height: 1px;
+                  content: '';
+                  background: #35b597;}
+
+p.content:after {position: absolute;
+                  top: calc(50% - 1px);
+                  right: 307px;
+                  width: 80%;
+                  height: 1px;
+                  content: '';
+                  background: #35b597;}
+
+p span.border {position: relative;
+               padding: 0 2em;
+               background: #ffffff;}
+
+
+/* 本文 */
+
+/* 店舗名 */
+#content p.storename1 {position: absolute;
+                       top: 130px;
+                       left: 250px;
+                       font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+                       letter-spacing: 10px;}
+
+#content p.storename2 {position: absolute;
+                       top: 124px;
+                       left: 450px;
+                       font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+                       letter-spacing: 5px;}
+
+span.storename {font-size: 23px;
+                font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";}
+
+#content p.storename1::after {content: "";
+                              width: 800px;
+                              border-bottom: 1px solid #35b597;
+                              position: absolute;
+                              top: 50px;
+                              left: 0;}
+
+/* 代表 */
+#content p.owner1 {position: absolute;
+                   top: 230px;
+                   left: 250px;
+                   font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+                   letter-spacing: 35px;}
+
+#content p.owner2 {position: absolute;
+                   top: 230px;
+                   left: 450px;
+                   font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+                   letter-spacing: 5px;}
+
+#content p.owner1::after {content: "";
+                          width: 800px;
+                          border-bottom: 1px solid #35b597;
+                          position: absolute;
+                          top: 60px;
+                          left: 0;}
+
+/* 所在地 */
+#content p.location1 {position: absolute;
+                      top: 330px;
+                      left: 250px;
+                      font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+                      letter-spacing: 10px;}
+
+#content p.location2 {position: absolute;
+                      top: 330px;
+                      left: 450px;
+                      font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+                      letter-spacing: 5px;}
+
+#content p.location1::after {content: "";
+                             width: 800px;
+                             border-bottom: 1px solid #35b597;
+                             position: absolute;
+                             top: 60px;
+                             left: 0;}
+
+/* 電話番号 */
+#content p.tel1 {position: absolute;
+                 top: 430px;
+                 left: 250px;
+                 font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+                 letter-spacing: 2px;}
+
+#content p.tel2 {position: absolute;
+                 top: 423px;
+                 left: 448px;
+                 font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+                 letter-spacing: 5px;
+                 font-size: 20px;}
+
+#content p.tel1::after {content: "";
+                        width: 800px;
+                        border-bottom: 1px solid #35b597;
+                        position: absolute;
+                        top: 60px;
+                        left: 0;}
+
+/* 営業時間 */
+#content p.time1 {position: absolute;
+                  top: 530px;
+                  left: 250px;
+                  font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+                  letter-spacing: 2px;}
+
+#content p.time2 {position: absolute;
+                  top: 530px;
+                  left: 450px;
+                  font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+                  letter-spacing: 5px;}
+
+#content p.time3 {position: absolute;
+                  top: 523px;
+                  left: 600px;
+                  font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+                  letter-spacing: 5px;
+                  font-size: 20px;}
+
+#content p.time1::after {content: "";
+                         width: 800px;
+                         border-bottom: 1px solid #35b597;
+                         position: absolute;
+                         top: 60px;
+                         left: 0;}
+
+/* 定休日 */
+#content p.regularholiday1 {position: absolute;
+                            top: 630px;
+                            left: 250px;
+                            font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+                            letter-spacing: 10px;}
+
+#content p.regularholiday2 {position: absolute;
+                            top: 630px;
+                            left: 450px;
+                            font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+                            letter-spacing: 5px;}
+
+#content p.regularholiday1::after {content: "";
+                                   width: 800px;
+                                   border-bottom: 1px solid #35b597;
+                                   position: absolute;
+                                   top: 60px;
+                                   left: 0;}
+
+
+
+

@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+
+/* コンテナ */
+#container {width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: #fffbc7;}
+
+/* ヘッダー */
+header#pageheader {width: 1233px;
+                   margin-right: auto;
+                   margin-left: auto;}
+
+.header img.header {url:(image/top.jpg);
+                    margin-right: auto;
+                    margin-left: auto;
+                    margin-top: 0;
+                    padding-top: 0;
+                    position: relative;}
+
+img.button {background-image:url(image/logo.png);
+            display: inline-block;
+            cursor: pointer;             
+            transition: .3s; 
+            position: absolute;
+            top: 0;
+            left: 30px;}
+
+a.logo:hover {color: #35b597;}
+
+.header h1 {font-family:'Calibri Light';
+            font-size: 115px;
+            letter-spacing: 10px;
+            position: absolute;
+            top: 10px;
+            left: 450px;}
+
+/* メニュー */
+
+ul#nav {text-align: center;
+        display: inline-block;
+        list-style: none;
+        padding-left: 0;
+        overflow: hidden;
+        margin-top: 40px;
+        margin-left: 130px;}
+
+li {width: 170px;
+    text-align: center;
+    float: left;
+    position: relative;
+    padding-left: 0;}
+
+.List-Item:before {position: absolute;
+                   top: 50%;
+                   content: "/";
+                   display: block;
+                   transform: translate(-50%, -50%);
+                   color: #5bc8ac;
+                   padding-left: 0;}
+
+li:first-child:before {padding-left: 0;
+                       margin-left: 0;
+                       color: #fffbc7;}
+
+a {text-decoration: none;}
+
+li a:hover {color: #35b597;}
+
+
+/* コンセプト */
+
+#description {width: 1233px;
+              margin-right: auto;
+              margin-left: auto;}
+
+#description img.introduction {margin-right: auto;
+                               margin-left: auto;
+                               margin-top: 0;
+                               padding-top: 0;
+                               position: relative;}
+
+#description {position: relative;}
+
+.box {background-color: rgba(255,255,255,0.5);
+      width:632px;
+      height: 368px;
+      position: absolute;
+      top: 227px;
+      left: 570px;}
+
+h1.big {font-family:'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+        font-size: 45px;
+        display: inlin-block;
+        text-align:center;}
+
+h1.katakana {font-family:'Calibri Light';
+             font-size: 18px;
+             display: inlin-block;
+             text-align:center;
+             margin: 0;
+             position: absolute;
+             top: 80px;
+             left: 230px;}
+
+p.introduction {font-size: 18px;
+                font-family:'Calibri Light';
+                margin-top: 50px;
+                display: inlin-block;
+                text-align:center;
+                line-height: 40px;
+                color: #000000;}
+
+span#heading {font-size: 18px;
+              font-family: 'Calibri Light';}
+
+span#text {font-size: 1.3em;}
+
+img.hana {margin-left: 480px;
+          margin-top: 0;
+          position: absolute;
+          top: 210px;}
+
+.btn-flat-simple {display: inline-block;
+                  padding: 0.4em 0.6em;
+                  text-decoration: none;
+                  color: #000000;
+                  background: #f9d2d9;
+                  transition: .4s;
+                  border-radius: 5px;
+                  position: absolute;
+                  top: 300px;
+                  left: 250px;}
+
+.btn-flat-simple:hover {background: #35b597;
+                        color: white;}
+
+
+/* コンテンツ */
+
+#content {width: 1233px;
+          margin-right: auto;
+          margin-left: auto;} 
+
+#plant h1.content {font-size: 38px;
+                   color: #35b597;
+                   font-family: 'Calibri Light', "HG丸ｺﾞｼｯｸM-PRO";
+                   text-align: center;
+                   margin-top: 60px;}
+
+h1.content {position: relative;
+            padding: 0 100px;
+            text-align: center;}
+
+h1.content:before {position: absolute;
+           top: calc(50% - 1px);
+           left: 0;
+           width: 100%;
+           height: 1px;
+           content: '';
+           background: #35b597;}
+
+h1 span.border {position: relative;
+                padding: 0 2em;
+                background: #fffbc7;}
+
+/* 写真左1 */
+
+section.left1 {width: 1233px;
+               height: 426px;
+               margin-top: 60px;}
+
+section.left1 img {url(image/teatime.jpg);
+                   margin-left: 0;
+                   padding-left: 0;
+                   float: left;}
+
+section.left1 p {font-family: 'Calibri Light';
+                float: right;
+                text-align: center;
+                margin-top: 160px;
+                margin-right: 180px;
+                line-height: 40px;}
+           
+section.left1 {background-color: #fbd6a0;
+              background-size: 594px; 426px;
+              background-position: 640px; 426px;}
+
+a:hover {color: #35b597;}
+
+/* 写真右1 */
+
+section.right1 {width: 1233px;
+              height: 412px;
+              margin-top: 60px;}
+
+section.right1 img {url(image/oregano.jpg);
+                    margin-right: 0;
+                    float:right;}
+
+section.right1 p {font-family: 'Calibri Light';
+                  float: left;
+                  text-align: center;
+                  margin-top: 155px;
+                  margin-left: 130px;
+                  line-height: 40px;}
+           
+section.right1 {background-color: #80c48b;
+         background-size: 594px; 412px;
+         background-position: 640px; 426px;}
+
+/* 写真左2 */
+
+section.left2 {width: 1233px;
+              height: 426px;
+              margin-top: 60px;}
+
+section.left2 img {url(image/teatime.jpg);
+                  margin-left: 0;
+                  padding-left: 0;
+                  float: left;}
+
+section.left2 p {font-family: 'Calibri Light';
+                float: right;
+                text-align: center;
+                margin-top: 130px;
+                margin-right: 150px;
+                line-height: 40px;}
+           
+section.left2 {background-color: #d6be9f;
+              background-size: 594px; 426px;
+              background-position: 640px; 426px;}
+
+span.interior {font-size: 20px;}
+           
+/* 写真右2 */
+
+section.right2 {width: 1233px;
+              height: 417px;
+              margin-top: 60px;}
+
+section.right2 img {url(image/oregano.jpg);
+                    margin-right: 0;
+                    float: right;}
+
+section.right2 p {font-family: 'Calibri Light';
+           float: left;
+           text-align: center;
+           margin-top: 158px;
+           margin-left: 140px;
+           line-height: 40px;}
+           
+section.right2 {background-color: #fab7d8;
+         background-size: 594px; 417px;
+         background-position: 640px; 426px;}
+
+/* 写真左3 */
+
+section.left3 {width: 1233px;
+              height: 426px;
+              margin-top: 60px;}
+
+section.left3 img {url(image/teatime.jpg);
+                  margin-left: 0;
+                  padding-left: 0;
+                   float: left;}
+
+section.left3 p {font-family: 'Calibri Light';
+                float: right;
+                text-align: center;
+                margin-top: 158px;
+                margin-right: 110px;
+                line-height: 40px;}
+           
+section.left3 {background-color: #c0b8da;
+              background-size: 594px; 426px;
+              background-position: 640px; 426px;}
+
+/* フッター */
+footer {margin-top: 60px;
+        background-color: #35b597;}
+
+small {color: #ffffff;
+       display: inlin-block;
+       text-align: center;
+       margin-left: 450px;}
+
+
+
